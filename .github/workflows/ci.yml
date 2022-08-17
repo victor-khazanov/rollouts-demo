@@ -41,7 +41,7 @@ jobs:
           CF_CONTAINER_REGISTRY_INTEGRATION: 'docker-demo'
 
           # Name of Jira integration
-          CF_JIRA_INTEGRATION: 'jira'
+          CF_JIRA_INTEGRATION: 'jira-1'
 
           # Image path to enrich
           CF_IMAGE: ${{env.CF_IMAGE}}
