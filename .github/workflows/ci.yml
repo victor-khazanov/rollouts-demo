@@ -38,7 +38,7 @@ jobs:
           CF_API_KEY: ${{secrets.CF_API_KEY}}
 
           # Name of Container registry integration
-          CF_CONTAINER_REGISTRY_INTEGRATION: 'docker-1'
+          CF_CONTAINER_REGISTRY_INTEGRATION: 'docker'
 
           # Name of Jira integration
           CF_JIRA_INTEGRATION: 'jira'
