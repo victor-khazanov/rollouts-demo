@@ -43,7 +43,7 @@ jobs:
           CF_CONTAINER_REGISTRY_INTEGRATION: 'docker-image'
 
           # Name of Jira integration
-          CF_JIRA_INTEGRATION: 'jira-image'
+          CF_JIRA_INTEGRATION: 'jira-image-prod'
 
           # Image path to enrich
           CF_IMAGE: ${{env.CF_IMAGE}}
@@ -53,8 +53,8 @@ jobs:
           CF_GITHUB_TOKEN: ${{secrets.PAT}}
 
           # Jira project filter
-          #CF_JIRA_PROJECT_PREFIX: 'CR'
-          CF_JIRA_PROJECT_PREFIX: 'TES'
+          CF_JIRA_PROJECT_PREFIX: 'CR'
+          #CF_JIRA_PROJECT_PREFIX: 'TES'
 
           ## String starting with the issue ID to associate with image
           CF_JIRA_MESSAGE: "${{ github.event.pull_request.head.ref }}"
