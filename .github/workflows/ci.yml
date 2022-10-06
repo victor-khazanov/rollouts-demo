@@ -40,10 +40,10 @@ jobs:
           CF_API_KEY: ${{secrets.CF_API_KEY}}
 
           # Name of Container registry integration
-          CF_CONTAINER_REGISTRY_INTEGRATION: 'test-docker'
+          CF_CONTAINER_REGISTRY_INTEGRATION: 'docker-image'
 
           # Name of Jira integration
-          CF_JIRA_INTEGRATION: 'test-jira'
+          CF_JIRA_INTEGRATION: 'jira-image'
 
           # Image path to enrich
           CF_IMAGE: ${{env.CF_IMAGE}}
