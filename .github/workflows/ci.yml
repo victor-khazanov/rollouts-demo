@@ -41,7 +41,9 @@ jobs:
           CF_API_KEY: ${{secrets.CF_API_KEY_LOCAL}}
 
           # Name of Container registry integration
-          CF_CONTAINER_REGISTRY_INTEGRATION: 'docker-image'
+          #CF_CONTAINER_REGISTRY_INTEGRATION: 'docker-image'
+          CF_DOCKERHUB_USERNAME: 'viktorcodefresh'
+          CF_DOCKERHUB_PASSWORD: ${{secrets.CF_DOCKERHUB_PASSWORD}}
 
           # Name of Jira integration
           CF_JIRA_INTEGRATION: 'j-g'
