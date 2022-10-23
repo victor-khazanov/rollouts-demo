@@ -46,7 +46,7 @@ jobs:
           CF_DOCKERHUB_PASSWORD: ${{secrets.CF_DOCKERHUB_PASSWORD}}
 
           # Name of Jira integration
-          CF_JIRA_INTEGRATION: 'j-g'
+          CF_JIRA_INTEGRATION: 'j-y'
 
           # Image path to enrich
           CF_IMAGE: ${{env.CF_IMAGE}}
